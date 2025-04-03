@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://server-a45g.onrender.com/api/v1";
+const BASE_URL = "https://server-flame-five-19.vercel.app/api/v1";
 const axiosInstance = axios.create();
 axiosInstance.defaults.baseURL = BASE_URL;
 axiosInstance.defaults.withCredentials = true;
